@@ -1,4 +1,4 @@
-# Eaasy Enterprise
+# Easy Enterprise
 #### Net Centric Programming
 
 Easy Picker - A portal for managing small enterprises
