@@ -1,0 +1,110 @@
+.introduction {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.introduction h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(68, 23, 23);
+}
+.introduction p {
+    font-size: 20px;
+    color: rgb(134, 88, 88);
+}
+.container {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.col-md-6 {
+    width: 46%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+}
+.img-fluid {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.entity-tiles-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-container {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(217, 199, 199);
+}
+.form-group {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-group input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(68, 23, 23);
+    padding-left: 10px;
+}
+.form-group textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(68, 23, 23);
+    padding-left: 10px;
+}
+.form-group select{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(68, 23, 23);
+    padding-left: 10px;
+}
+.form-group label {
+    font-size: 20px;
+    color: rgb(68, 23, 23);
+}
+.half-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-group2 {
+    width: 45%;
+    text-align: left;
+}
+.three-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-group3 {
+    width: 30%;
+    text-align: left;
+}

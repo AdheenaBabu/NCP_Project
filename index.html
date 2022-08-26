@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Enterprise Manager</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">History</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Add New
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="addEmployee.html">Add New Employee</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="addService.html">Add New Service</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="addJob.html">Add New Job</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="addPart.html">Add New Part</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Log Out</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="section">
+        <section>
+            <div class="image">
+                <img src="./images/coverImg.jpg" alt="Enterprise Manager Cover" class="img-fluid">
+            </div>
+            <div class="introduction">
+                <div class="container1">
+                    <div class="col-md-12">
+                        <h1>Welcome to Enterprise Manager</h1>
+                        <p>This is a web application that allows you to manage your enterprise's business.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Employees</h2>
+                        <p>This is a list of all the employees in your enterprise.</p>
+                        <button class="btn btn-outline-primary" type="submit" onclick="window.location.href='employees.html'">View Employees</button>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Services</h2>
+                        <p>This is a list of all the services in your enterprise.</p>
+                        <button class="btn btn-outline-primary" type="submit" onclick="window.location.href='services.html'">View Services</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Jobs</h2>
+                        <p>This is a list of all the jobs in your enterprise.</p>
+                        <button class="btn btn-outline-primary" type="submit" onclick="window.location.href='jobs.html'">View Jobs</button>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Parts</h2>
+                        <p>This is a list of all the parts in your enterprise.</p>
+                        <button class="btn btn-outline-primary" type="submit" onclick="window.location.href='parts.html'">View Parts</button>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">&copy; Enterprise Manager 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</html>
