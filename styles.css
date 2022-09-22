@@ -38,12 +38,36 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: rgb(216, 216, 216);
+    background: linear-gradient(to right, #fda3a3, #733838);
+}
+.col-md-6 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.col-md-6 p {
+    font-size: 15px;
+    color: white;
 }
 .img-fluid {
     width: 100%;
     height: 550px;
     object-fit: cover;
+}
+.btn-outline-primary {
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-outline-primary:hover {
+    border: 2px solid white;
+    background: white;
+    color: rgb(68, 23, 23);
 }
 .entity-tiles-container {
     text-align: center;
@@ -108,3 +132,9 @@
     width: 30%;
     text-align: left;
 }
+@media screen and (max-width: 820px) {
+    .col-md-6 {
+      width: 420px;
+    }
+  }
+
